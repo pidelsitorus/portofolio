@@ -126,28 +126,54 @@
     <div class="skills">
 
         <div class="skill">
-            <strong>Database</strong>
-            <p>Oracle, MySQL, PostgreSQL</p>
+            <h3>Database</h3>
+
+            <div class="skill-tags">
+                <span>Oracle</span>
+                <span>MySQL</span>
+                <span>PostgreSQL</span>
+            </div>
         </div>
 
         <div class="skill">
-            <strong>Infrastructure</strong>
-            <p>Linux, Virtual Machine, System Monitoring</p>
+            <h3>Infrastructure</h3>
+
+            <div class="skill-tags">
+                <span>Linux</span>
+                <span>Virtual Machine</span>
+                <span>System Monitoring</span>
+            </div>
         </div>
 
         <div class="skill">
-            <strong>Cloud & DevOps</strong>
-            <p>Docker, Kubernetes, Git, GitHub</p>
+            <h3>Cloud & DevOps</h3>
+
+            <div class="skill-tags">
+                <span>Docker</span>
+                <span>Kubernetes</span>
+                <span>Git</span>
+                <span>GitHub</span>
+            </div>
         </div>
 
         <div class="skill">
-            <strong>Programming</strong>
-            <p>Python, PHP, Laravel</p>
+            <h3>Programming</h3>
+
+            <div class="skill-tags">
+                <span>Python</span>
+                <span>PHP</span>
+                <span>Laravel</span>
+            </div>
         </div>
 
         <div class="skill">
-            <strong>Automation</strong>
-            <p>Shell Script, Windows Batch, SSH</p>
+            <h3>Automation</h3>
+
+            <div class="skill-tags">
+                <span>Shell Script</span>
+                <span>Windows Batch</span>
+                <span>SSH</span>
+            </div>
         </div>
 
     </div>
