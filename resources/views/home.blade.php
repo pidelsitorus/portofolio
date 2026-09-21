@@ -159,6 +159,8 @@
     <div class="projects">
 
         <div class="project">
+            <span class="project-category">AUTOMATION</span>
+
             <h3>Backup Checker Automation</h3>
 
             <p>
@@ -168,10 +170,16 @@
                 failures.
             </p>
 
-            <p><strong>Technologies:</strong> Windows Batch, SSH, Linux</p>
+            <div class="tech-tags">
+                <span>Windows Batch</span>
+                <span>SSH</span>
+                <span>Linux</span>
+            </div>
         </div>
 
         <div class="project">
+            <span class="project-category">DEVOPS</span>
+
             <h3>DevOps Inventory API</h3>
 
             <p>
@@ -180,10 +188,17 @@
                 uses FastAPI, PostgreSQL, Docker, and Docker Compose.
             </p>
 
-            <p><strong>Technologies:</strong> Python, FastAPI, PostgreSQL, Docker</p>
+            <div class="tech-tags">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>PostgreSQL</span>
+                <span>Docker</span>
+            </div>
         </div>
 
         <div class="project">
+            <span class="project-category">CLOUD</span>
+
             <h3>Edge Cloud Gaming Platform</h3>
 
             <p>
@@ -192,7 +207,12 @@
                 GPU virtualization and Kubernetes orchestration.
             </p>
 
-            <p><strong>Technologies:</strong> Python, Flask, Kubernetes, Docker</p>
+            <div class="tech-tags">
+                <span>Python</span>
+                <span>Flask</span>
+                <span>Kubernetes</span>
+                <span>Docker</span>
+            </div>
         </div>
 
     </div>
