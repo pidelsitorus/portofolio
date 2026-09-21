@@ -32,26 +32,33 @@
 
 
 <section class="hero" id="home">
-    <div>
-        <h1>Hello, I'm Pidel Sitorus</h1>
+    <div class="hero-content">
+
+        <p class="hero-label">IT DBA SUPPORT • CLOUD • DEVOPS ENGINEER</p>
+
+        <h1>Pidel Sitorus</h1>
 
         <h2>IT Database Support</h2>
 
-        <p>
-            I am a Computer Technology graduate interested in
-            database systems, cloud infrastructure, automation,
-            and DevOps.
+        <p class="hero-description">
+            Computer Technology graduate focused on database systems,
+            cloud infrastructure, system automation, and DevOps.
         </p>
 
-        <a href="#projects" class="button">
-            View My Projects
-        </a>
+        <div class="hero-buttons">
+            <a href="#projects" class="button">
+                View Projects
+            </a>
+
+            <a href="#contact" class="button button-secondary">
+                Contact Me
+            </a>
+        </div>
+
     </div>
 </section>
 
 <section id="about">
-
-    <section id="about">
     <h2>About Me</h2>
 
     <div class="about">
