@@ -429,3 +429,42 @@ footer {
         white-space: normal;
     }
 }
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.contact-link {
+    display: inline-block;
+    padding: 11px 20px;
+    border: 1px solid #111;
+    border-radius: 6px;
+    color: #111;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.contact-link:hover {
+    background: #111;
+    color: white;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+    .contact-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact-link {
+        width: 100%;
+        text-align: center;
+    }
+}

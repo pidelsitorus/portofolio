@@ -282,9 +282,32 @@
             Feel free to reach out.
         </p>
 
-        <a href="mailto:pidelsitorus1309@gmail.com" class="button">
-            Email Me
-        </a>
+        <div class="contact-links">
+            <a href="mailto:pidelsitorus1309@gmail.com" class="contact-link">
+                Email
+            </a>
+
+            <a href="https://github.com/pidelsitorus"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-link">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/pidel-sitorus"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-link">
+                LinkedIn
+            </a>
+
+            <a href="https://wa.me/6281396294663"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-link">
+                WhatsApp
+            </a>
+        </div>
     </div>
 </section>
 
