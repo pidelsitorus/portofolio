@@ -69,7 +69,7 @@
         </p>
 
         <p>
-            Currently working as an IT Support Database at Indomaret Group,
+            Currently working as an IT Database Support at Indomaret Group,
             supporting database monitoring, backup operations, replication,
             and basic troubleshooting across database environments.
         </p>
@@ -77,7 +77,8 @@
         <p>
             Previously, I worked as a Cloud Systems Engineer Intern at
             PT PAN Solusi Indodata, where I worked with Kubernetes,
-            GPU virtualization, Python, and REST API development.
+            GPU virtualization, Python, and REST API development, Linux
+            Administration, Docker.
         </p>
     </div>
 </section>
@@ -85,39 +86,67 @@
 <section id="experience">
     <h2>Experience</h2>
 
-    <div class="projects">
+    <div class="experience">
 
-        <div class="project">
-            <h3>IT Support Database</h3>
-            <p><strong>Indomaret Group</strong></p>
+        <div class="about">
             <p>
-                Supporting database operations and monitoring activities,
-                including database availability, backup monitoring,
-                replication monitoring, and basic troubleshooting.
+                I am a Computer Technology graduate from Institut Teknologi Del.
+                I have experience in cloud systems, infrastructure,
+                database support, and system automation.
             </p>
         </div>
 
-        <div class="project">
-            <h3>Cloud Systems Engineer Intern</h3>
-            <p><strong>PT PAN Solusi Indodata</strong></p>
+        <div class="experience-item">
+
+            <div class="experience-header">
+                <div>
+                    <h3>IT Database Support</h3>
+                    <p class="experience-company">Indomaret Group</p>
+                </div>
+
+                <span class="experience-period">Sep 2026 – Present</span>
+            </div>
+
             <p>
-                Worked on an Edge Cloud Gaming Platform using GPU
-                virtualization and Kubernetes orchestration. Developed
-                a Flask REST API to automate game server deployment
-                and integrated it with Kubernetes.
+                Supporting database operations and monitoring activities
+                across database environments.
             </p>
+
+            <ul>
+                <li>Monitoring database availability and system status.</li>
+                <li>Checking backup status and backup verification.</li>
+                <li>Monitoring database replication and replication lag.</li>
+                <li>Performing basic troubleshooting on database environments.</li>
+                <li>Escalating database issues to the DBA team when required.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <h3>Cloud Systems Engineer Intern</h3>
+                    <p class="experience-company">PT PAN Solusi Indodata</p>
+                </div>
+
+                <span class="experience-period">Jan 2025 – Jul 2025</span>
+            </div>
+
+            <p>
+                Worked on an Edge Cloud Gaming Platform focused on
+                low-latency game streaming.
+            </p>
+
+            <ul>
+                <li>Worked with Kubernetes orchestration.</li>
+                <li>Implemented GPU virtualization for game workloads.</li>
+                <li>Developed a Flask REST API using Python.</li>
+                <li>Automated game server deployment through Kubernetes.</li>
+            </ul>
         </div>
 
     </div>
 </section>
 
-    <div class="about">
-        <p>
-            I am a Computer Technology graduate from Institut Teknologi Del.
-            I have experience in cloud systems, infrastructure,
-            database support, and system automation.
-        </p>
-    </div>
 </section>
 
 <section id="skills">
@@ -225,7 +254,7 @@
         <div class="project">
             <span class="project-category">CLOUD</span>
 
-            <h3>Edge Cloud Gaming Platform</h3>
+            <h3>Edge Gaming Cloud Platform</h3>
 
             <p>
                 Developed during an internship at PT PAN Solusi Indodata.
