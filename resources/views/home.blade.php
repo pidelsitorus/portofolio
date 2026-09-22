@@ -5,11 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Pidel Sitorus | Portfolio</title>
+    <title>Pidel Sitorus | IT Database Support & Cloud Engineer</title>
 
+    <meta name="description"
+        content="Portfolio Pidel Sitorus, IT Database Support dengan pengalaman di database systems, cloud infrastructure, system automation, dan DevOps.">
+
+    <meta name="author" content="Pidel Sitorus">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://pidelsitorus.github.io/portofolio/">
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
     <link rel="stylesheet" href="/css/style.css">
-
 </head>
 
 <body>
