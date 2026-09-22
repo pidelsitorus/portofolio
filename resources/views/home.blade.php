@@ -56,6 +56,11 @@
                 <a href="#contact" class="button button-secondary">
                     Contact Me
                 </a>
+
+                <a href="resume/CV_Pidel2026.pdf" class="button button-secondary" target="_blank"
+                    rel="noopener noreferrer">
+                    Download Resume
+                </a>
             </div>
 
             <div class="hero-socials">
