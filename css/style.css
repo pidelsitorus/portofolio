@@ -213,7 +213,6 @@ footer {
 ========================= */
 
 @media (max-width: 1024px) {
-
     nav {
         padding: 20px 5%;
     }
@@ -233,7 +232,6 @@ footer {
 ========================= */
 
 @media (max-width: 700px) {
-
     nav {
         flex-direction: row;
         justify-content: space-between;
@@ -315,7 +313,6 @@ footer {
 ========================= */
 
 @media (max-width: 480px) {
-
     nav .logo {
         font-size: 19px;
     }
@@ -365,5 +362,240 @@ footer {
 
     footer {
         font-size: 13px;
+    }
+}
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience-item {
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 18px;
+}
+
+.experience-item h3 {
+    margin-bottom: 6px;
+    font-size: 22px;
+}
+
+.experience-company {
+    color: #666;
+    font-weight: 600;
+}
+
+.experience-period {
+    color: #666;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.experience-item > p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.experience-item ul {
+    padding-left: 20px;
+    color: #555;
+}
+
+.experience-item li {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 700px) {
+    .experience-header {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .experience-period {
+        white-space: normal;
+    }
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.contact-link {
+    display: inline-block;
+    padding: 11px 20px;
+    border: 1px solid #111;
+    border-radius: 6px;
+    color: #111;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.contact-link:hover {
+    background: #111;
+    color: white;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+    .contact-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact-link {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tags span {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #f2f2f2;
+    color: #222;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.profile-photo {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 25px;
+    border: 4px solid #111;
+}
+
+.hero-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.hero-socials a {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
+    color: #444;
+    background: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.hero-socials a:hover {
+    border-color: #111;
+    color: #111;
+    transform: translateY(-2px);
+}
+
+.hero-socials span {
+    display: none;
+}
+
+.education-item {
+    max-width: 750px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 5px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.education-item h3 {
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
+.education-degree {
+    margin-bottom: 4px;
+    color: #555;
+    font-weight: 600;
+}
+
+.education-status {
+    color: #777;
+    font-size: 14px;
+}
+
+.education-period {
+    color: #777;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.certifications {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 40px;
+}
+
+.certification-item {
+    padding: 18px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.certification-item h3 {
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.certification-item p {
+    color: #777;
+    font-size: 13px;
+}
+
+@media (max-width: 700px) {
+    .certifications {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .education-item {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .education-period {
+        white-space: normal;
     }
 }
