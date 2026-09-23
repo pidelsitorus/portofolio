@@ -10,6 +10,27 @@
     <meta name="description"
         content="Portfolio Pidel Sitorus, IT Database Support dengan pengalaman di database systems, cloud infrastructure, system automation, dan DevOps.">
 
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pidel Sitorus | IT Database Support & Cloud Engineer">
+    <meta property="og:description"
+        content="Portfolio Pidel Sitorus, IT Database Support dengan pengalaman di database systems, cloud infrastructure, system automation, dan DevOps.">
+    <meta property="og:url" content="https://pidelsitorus.github.io/portofolio/">
+    <meta property="og:site_name" content="Pidel Sitorus Portfolio">
+
+    <meta property="og:image" content="https://pidelsitorus.github.io/portofolio/og-image.png">
+    <meta property="og:image:width" content="1734">
+    <meta property="og:image:height" content="907">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="Pidel Sitorus - IT Database Support & Cloud Engineer">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pidel Sitorus | IT Database Support & Cloud Engineer">
+    <meta name="twitter:description"
+        content="Portfolio Pidel Sitorus, IT Database Support dengan pengalaman di database systems, cloud infrastructure, system automation, dan DevOps.">
+    <meta name="twitter:image" content="https://pidelsitorus.github.io/portofolio/og-image.png">
+
     <meta name="author" content="Pidel Sitorus">
 
     <meta name="robots" content="index, follow">
