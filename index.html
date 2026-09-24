@@ -142,21 +142,22 @@
         <div class="about">
             <p>
                 I am a Computer Technology graduate from Institut Teknologi Del
-                with an interest in IT infrastructure, database systems,
-                cloud infrastructure, and system automation.
+                with a strong interest in database systems, IT infrastructure,
+                cloud infrastructure, system automation, and DevOps.
             </p>
 
             <p>
                 Currently working as an IT Database Support at Indomaret Group,
                 supporting database monitoring, backup operations, replication,
-                and basic troubleshooting across database environments.
+                and troubleshooting across Oracle, MySQL, PostgreSQL, and
+                Microsoft SQL Server environments.
             </p>
 
             <p>
                 Previously, I worked as a Cloud Systems Engineer Intern at
-                PT PAN Solusi Indodata, where I worked with Kubernetes,
-                GPU virtualization, Python, and REST API development, Linux
-                Administration, Docker.
+                PT PAN Solusi Indodata, where I gained hands-on experience with
+                Kubernetes, Docker, Linux, GPU virtualization, Python, and
+                REST API development for cloud infrastructure and automation.
             </p>
         </div>
     </section>
@@ -238,16 +239,7 @@
 
         <div class="experience">
 
-            <div class="about">
-                <p>
-                    I am a Computer Technology graduate from Institut Teknologi Del.
-                    I have experience in cloud systems, infrastructure,
-                    database support, and system automation.
-                </p>
-            </div>
-
             <div class="experience-item">
-
                 <div class="experience-header">
                     <div>
                         <h3>IT Database Support</h3>
@@ -258,16 +250,17 @@
                 </div>
 
                 <p>
-                    Supporting database operations and monitoring activities
-                    across database environments.
+                    Supporting daily database operations, monitoring, and
+                    troubleshooting across enterprise database environments.
                 </p>
 
                 <ul>
-                    <li>Monitoring database availability and system status.</li>
-                    <li>Checking backup status and backup verification.</li>
-                    <li>Monitoring database replication and replication lag.</li>
-                    <li>Performing basic troubleshooting on database environments.</li>
-                    <li>Escalating database issues to the DBA team when required.</li>
+                    <li>Monitor database availability, system status, and operational alerts.</li>
+                    <li>Monitor backup operations and verify backup status.</li>
+                    <li>Monitor database replication and identify replication lag.</li>
+                    <li>Monitor storage usage, database sessions, locks, and long-running queries.</li>
+                    <li>Perform basic troubleshooting and collect evidence for database incidents.</li>
+                    <li>Escalate database issues to the DBA team when further investigation is required.</li>
                 </ul>
             </div>
 
@@ -282,21 +275,21 @@
                 </div>
 
                 <p>
-                    Worked on an Edge Cloud Gaming Platform focused on
-                    low-latency game streaming.
+                    Worked on an Edge Cloud Gaming Platform designed for
+                    low-latency game streaming using container orchestration
+                    and GPU virtualization.
                 </p>
 
                 <ul>
-                    <li>Worked with Kubernetes orchestration.</li>
-                    <li>Implemented GPU virtualization for game workloads.</li>
-                    <li>Developed a Flask REST API using Python.</li>
+                    <li>Worked with Kubernetes for container orchestration and game server deployment.</li>
+                    <li>Integrated NVIDIA GPU virtualization for game workloads.</li>
+                    <li>Developed REST API services using Flask and Python.</li>
                     <li>Automated game server deployment through Kubernetes.</li>
+                    <li>Developed a web interface for server package selection and deployment results.</li>
                 </ul>
             </div>
 
         </div>
-    </section>
-
     </section>
 
     <section id="skills">
@@ -369,10 +362,9 @@
                 <h3>Backup Checker Automation</h3>
 
                 <p>
-                    Automated backup verification for Linux database servers
-                    using Windows Batch and SSH. The tool checks backup files
-                    across multiple servers and identifies potential backup
-                    failures.
+                    Automated backup verification across multiple Linux database servers
+                    using Windows Batch and SSH. The tool checks backup files, identifies
+                    potential backup failures, and reduces repetitive manual server checks.
                 </p>
 
                 <div class="tech-tags">
@@ -398,6 +390,7 @@
                     <span>FastAPI</span>
                     <span>PostgreSQL</span>
                     <span>Docker</span>
+                    <span>Docker Compose</span>
                 </div>
             </div>
 
@@ -409,7 +402,8 @@
                 <p>
                     Developed during an internship at PT PAN Solusi Indodata.
                     The platform focused on low-latency game streaming using
-                    GPU virtualization and Kubernetes orchestration.
+                    GPU virtualization, Kubernetes orchestration, and automated
+                    game server deployment through REST API services.
                 </p>
 
                 <div class="tech-tags">
@@ -417,6 +411,7 @@
                     <span>Flask</span>
                     <span>Kubernetes</span>
                     <span>Docker</span>
+                    <span>GPU virtualization</span>
                 </div>
             </div>
 
