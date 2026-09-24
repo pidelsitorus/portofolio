@@ -40,6 +40,36 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
     <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+{
+    "@@context": "https://schema.org",
+    "@@type": "Person",
+    "name": "Pidel Sitorus",
+    "url": "https://pidelsitorus.github.io/portofolio/",
+    "image": "https://pidelsitorus.github.io/portofolio/images/profile.png",
+    "jobTitle": "IT Database Support",
+    "description": "IT Database Support with experience in database systems, cloud infrastructure, system automation, and DevOps.",
+    "alumniOf": {
+        "@@type": "CollegeOrUniversity",
+        "name": "Institut Teknologi Del"
+    },
+    "knowsAbout": [
+        "Database Administration",
+        "Oracle Database",
+        "MySQL",
+        "PostgreSQL",
+        "Microsoft SQL Server",
+        "Linux",
+        "Cloud Infrastructure",
+        "Docker",
+        "Kubernetes",
+        "System Automation",
+        "DevOps"
+    ]
+}
+</script>
 </head>
 
 <body>
